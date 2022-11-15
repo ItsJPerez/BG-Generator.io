@@ -1,0 +1,62 @@
+ /* <input type = "color"> */
+ 
+
+ body {
+    font-family: 'Raleway',sans-serif ;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow); 
+ }
+ h1 {
+    font-family: 'Raleway',sans-serif ;
+    font: bold 3.5rem;
+    /* color: rgba(0, 0, 0, .5); */
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+    margin-top: 5rem;
+ }
+ h3 {
+    font-family: 'Raleway',sans-serif ;
+    font: 900 1em;
+    /* color: rgba(0, 0, 0, .5); */
+    color: white;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+ }
+ h2 {
+   color: black;
+ }
+ 
+ .btn-hover{
+    width: 125px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 15px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+ }
+ .btn-hover:hover {
+    background-position: 100% 0;
+    transition: all 0.4s ease ease-in-out;
+ }
+ .btn-hover:focus{
+    outline: none;
+ }
+ .btn-hover.color-2{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+ }
